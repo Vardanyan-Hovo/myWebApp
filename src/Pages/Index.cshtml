@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+@{
+    foreach (var x in Model.ImagesAll)
+    {
+        <div>
+            <img src=@x.imagUrl>
+            <label for=@x.imagUrl></label>
+            <input type="url" id=@x.ID.ToString(); name="imageURL" />
+
+        </div>
+    }
+}
