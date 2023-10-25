@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using ManipulateImages.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using myWebApp.Models;
@@ -18,11 +19,18 @@ public class IndexModel : PageModel
         _context= context;
     }
 
-    public void OnGet()
+    public IActionResult OnGet()
     {
-        foreach(var x in _context.Images)
+
+        return Page();
+    }
+
+    public async Task<IActionResult> OnPostAsync()
+    {
+        if (!ModelState.IsValid)
         {
-            ImagesAll.Add(x);
+            return Page();
         }
+        return RedirectToPage("./InputImage");
     }
 }

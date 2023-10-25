@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r5AUGQbpOPlhFM8waHFu/7oNu+rSd98hxpcgeXcQi0Ik8NYIq03aWHYL86PTqQ95NA/pfFbLUFuUdeF3kwFBeQ==",
+  "dgSpecHash": "cFI0CPF336aOs4dGbOgyfrhOUPTJAHhAxbxSJfAInEzlT6cRE2uXRHEOPnLbqDmHM/jIJ/qpGIb1s+MXX+7afw==",
   "success": true,
-  "projectFilePath": "/Users/tumolabsstudent/Desktop/dotnet-docker/src/myWebApp.csproj",
+  "projectFilePath": "/Users/tumolabsstudent/Desktop/dotnet-docker/src/ManipulateImages.csproj",
   "expectedPackageFiles": [
     "/Users/tumolabsstudent/.nuget/packages/microsoft.entityframeworkcore/7.0.5/microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "/Users/tumolabsstudent/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.5/microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",

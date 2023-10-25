@@ -1,21 +1,18 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+using ManipulateImages.Data;
+
 namespace myWebApp.Models
 {
 	public class Image
 	{
-        internal object imagUrl;
-
-        public int ID { get; internal set; }
-
-		public class Student
-		{
-			public int ID { get; set; }
-			public string imagUrl { get; set; }
-			public int size { get; set; }
-            public double radius { get; set; }
-			public int effects { get; set; }
-            public DateTime EnrollmentDate { get; set; }
-		}
+		[Key]
+		public int ID { get; set; }
+		public string? imagUrl { get; set; }
+		public int size { get; set; }
+        public double radius { get; set; }
+        public DateTime DateAdded { get; set; }
+		public List<string>? effect;
 	}
 }
 

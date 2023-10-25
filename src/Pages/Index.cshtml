@@ -4,15 +4,16 @@
     ViewData["Title"] = "Home page";
 }
 
+<div>
 
-@{
-    foreach (var x in Model.ImagesAll)
-    {
-        <div>
-            <img src=@x.imagUrl>
-            <label for=@x.imagUrl></label>
-            <input type="url" id=@x.ID.ToString(); name="imageURL" />
+    <input type="text" value="4" placeholder="default 4" />
+    <input type="button">Start
 
-        </div>
-    }
-}
+    <form method="post">
+        <p>
+            how many images do you want to enter
+        </p>
+        <input asp-for="Customer!.Name" />
+        <input type="submit" />
+    </form>
+</div>

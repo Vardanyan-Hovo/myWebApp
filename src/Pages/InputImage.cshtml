@@ -1,0 +1,19 @@
+﻿@page
+@model ManipulateImages.Pages.InputImageModel
+@{
+    ViewData["Title"] = "Example page";
+}
+
+
+
+    @{for (int i = 0; i < EmptyClass.count; ++i)
+      {
+            <form method="post">
+                <p>
+                    how many images do you want to enter
+                </p>
+                <input asp-for="Customer!.Name" />
+                <input type="submit" />
+            </form>
+      }
+    }

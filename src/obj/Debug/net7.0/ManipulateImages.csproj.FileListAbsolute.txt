@@ -1,0 +1,8 @@
+/Users/tumolabsstudent/Desktop/dotnet-docker/src/obj/Debug/net7.0/ManipulateImages.csproj.AssemblyReference.cache
+/Users/tumolabsstudent/Desktop/dotnet-docker/src/obj/Debug/net7.0/ManipulateImages.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tumolabsstudent/Desktop/dotnet-docker/src/obj/Debug/net7.0/ManipulateImages.AssemblyInfoInputs.cache
+/Users/tumolabsstudent/Desktop/dotnet-docker/src/obj/Debug/net7.0/ManipulateImages.AssemblyInfo.cs
+/Users/tumolabsstudent/Desktop/dotnet-docker/src/obj/Debug/net7.0/ManipulateImages.csproj.CoreCompileInputs.cache
+/Users/tumolabsstudent/Desktop/dotnet-docker/src/obj/Debug/net7.0/ManipulateImages.MvcApplicationPartsAssemblyInfo.cache
+/Users/tumolabsstudent/Desktop/dotnet-docker/src/obj/Debug/net7.0/ManipulateImages.RazorAssemblyInfo.cache
+/Users/tumolabsstudent/Desktop/dotnet-docker/src/obj/Debug/net7.0/ManipulateImages.RazorAssemblyInfo.cs

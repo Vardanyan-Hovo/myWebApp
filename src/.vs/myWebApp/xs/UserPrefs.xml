@@ -1,28 +1,21 @@
 ﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True" StartupConfiguration="{BBFAB1F9-F588-40E5-BBD5-F567FFBC997C}|http">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Index.cshtml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data/ImageContext.cs">
     <Files>
-      <File FileName="Pages/Privacy.cshtml" Line="1" Column="1" />
-      <File FileName="Pages/Index.cshtml" Line="18" Column="2" />
+      <File FileName="Pages/Index.cshtml" Line="19" Column="1" />
       <File FileName="Pages/Index.cshtml.cs" Line="25" Column="30" />
+      <File FileName="Models/Image.cs" Line="18" Column="4" />
+      <File FileName="Data/ImageContext.cs" Line="12" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="myWebApp" expanded="True">
             <Node name="myWebApp" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="FrameworkReferences" expanded="True" />
-                <Node name="PackageDependencies" expanded="True" />
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="ImageContext.cs" selected="True" />
               </Node>
-              <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Pages" expanded="True">
-                <Node name="Shared" expanded="True" />
-                <Node name="Index.cshtml" expanded="True">
-                  <Node name="Index.cshtml.cs" selected="True" />
-                </Node>
-                <Node name="Privacy.cshtml" expanded="True" />
-              </Node>
               <Node name="Properties" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
             </Node>
@@ -31,11 +24,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.myWebApp PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.ManipulateImages PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
